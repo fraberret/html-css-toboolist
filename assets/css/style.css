@@ -1,3 +1,4 @@
+/* #region color palette */
 :root{  
 
     --bool-blue:#47ACF1;
@@ -11,82 +12,10 @@
     --bool-grey:#cdd2d5;
     --bool-red:#eb5952;
     --bool-pink:#d863a0;
-}    /* color palette */
+}    
+/* #endregion  */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background-color: var(--bool-light);
-}
-/* #region header */
-
-.header_container{
-    background-color: var(--bool-lighter);
-    background-size: 290px;
-    height: 70px;
-
-}
-
-#logo{
-    padding: 12px;
-}
-
-#logo_img{
-    vertical-align: middle;
-}
-
-#logo_text{
-    font-size: 36px;
-    vertical-align: middle;   
-   
-}
-/* #endregion header */
-
-/* region main */
-
-main{
-    margin-left:20px ;
-}
-
- .container{
-    background-color: var(--bool-lighter);
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 50px;
-    padding: 20px 50px;
-
-
-}
-
-section{
-    
-    padding-bottom: 30px;
-}
-
-#btn_1{
-    background-color: var(--bool-blue);
-    color: var(--bool-lighter);
-    padding: 8px 10px;
-    border-radius: 0.3rem;
-    text-decoration: none;
-    border: none;
-}
-
-#btn_2{
-    background-color: var(--bool-lighter);
-    color: var(--bool-grey);
-    padding: 7px 10px;
-    border-radius: 0.3rem;
-    text-decoration: none;
-    border: solid var(--bool-grey);
-}
-
-#main_section{
-    margin-top: 1px;
-}
+/* #region Tag, Check and Marks  */
 .check::before{
     content: '\2713';
     font-size: 12px;
@@ -170,7 +99,89 @@ section{
     border-radius: 50px;
     margin-left: 5px;
 }
+
+/* #endregion  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;;
+
+}
+body{
+    background-color: var(--bool-light);
+}
+/* #region header */
+
+.header_container{
+    background-color: var(--bool-lighter);
+    background-size: 290px;
+    height: 70px;
+
+}
+
+#logo{
+    padding: 12px;
+}
+
+#logo_img{
+    vertical-align: middle;
+}
+
+#logo_text{
+    font-size: 36px;
+    vertical-align: middle;   
+   
+}
+/* #endregion header */
+
+/* #region main */
+
+main{
+    margin-left:20px ;
+}
+
+.container{
+    background-color: var(--bool-lighter);
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    padding: 20px 50px;
+
+
+}
+
+section{
+    
+    padding-bottom: 30px;
+}
+
+#btn_1{
+    background-color: var(--bool-blue);
+    color: var(--bool-lighter);
+    padding: 8px 10px;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    border: none;
+}
+
+#btn_2{
+    background-color: var(--bool-lighter);
+    color: var(--bool-grey);
+    padding: 7px 10px;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    border: solid var(--bool-grey);
+}
+
+#main_section{
+    margin-top: 1px;
+}
+
 .todo{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+/* #endregion */
