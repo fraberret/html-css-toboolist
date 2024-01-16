@@ -114,6 +114,7 @@ section{
     padding: 7px;
     font-size: 0.7rem;
     border-radius: 50px;
+    margin-left: 5px;
 }
 .q1_goalstag::after{
     content: "Q1 Goals";
@@ -123,6 +124,7 @@ section{
     padding: 7px;
     font-size: 0.7rem;
     border-radius: 50px;
+    margin-left: 5px;
 }
 .recruitingtag::after{
     content: "Recruiting";
@@ -132,6 +134,7 @@ section{
     padding: 7px;
     font-size: 0.7rem;
     border-radius: 50px;
+    margin-left: 5px;
 }
 
 .mobiletag::after{
@@ -142,6 +145,7 @@ section{
     padding: 7px;
     font-size: 0.7rem;
     border-radius: 50px;
+    margin-left: 5px;
 }
 
 .websitetag::after{
@@ -152,6 +156,7 @@ section{
     padding: 7px;
     font-size: 0.7rem;
     border-radius: 50px;
+    margin-left: 5px;
 }
 
 .salestag::after{
@@ -163,6 +168,7 @@ section{
     padding: 7px;
     font-size: 0.7rem;
     border-radius: 50px;
+    margin-left: 5px;
 }
 .todo{
     padding-top: 10px;
