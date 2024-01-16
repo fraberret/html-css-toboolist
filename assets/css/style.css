@@ -10,7 +10,31 @@
     --bool-dark:#444851;
 }    /* color palette */
 
-
-body{
-    background-color: aqua;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/* #region header */
+.container{
+    background-color: var(--bool-lighter);
+    background-size: 290px;
+    height: 70px;
+
+}
+
+#logo{
+    padding: 12px;
+}
+
+#logo_img{
+    vertical-align: middle;
+}
+
+#logo_text{
+    font-size: 36px;
+    vertical-align: middle;   
+   
+}
+/* #endregion header */
