@@ -1,0 +1,16 @@
+:root{  
+
+    --bool-blue:#47ACF1;
+    --bool-green:#64C0A8;
+    --bool-lightgreen:#B0C926;
+    --bool-orange:#F29D33;
+    --bool-purple:#9C72E4;
+    --bool-light:#DCDFE2;
+    --bool-lighter:#FFFFFF;
+    --bool-dark:#444851;
+}    /* color palette */
+
+
+body{
+    background-color: aqua;
+}
