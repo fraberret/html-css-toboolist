@@ -5,9 +5,10 @@
     --bool-lightgreen:#B0C926;
     --bool-orange:#F29D33;
     --bool-purple:#9C72E4;
-    --bool-light:#DCDFE2;
+    --bool-light:#f6f8f9;
     --bool-lighter:#FFFFFF;
     --bool-dark:#444851;
+    --bool-grey:#cdd2d5;
 }    /* color palette */
 
 *{
@@ -15,9 +16,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: var(--bool-light);
+}
 /* #region header */
-.container{
+
+.header_container{
     background-color: var(--bool-lighter);
     background-size: 290px;
     height: 70px;
@@ -38,3 +42,42 @@
    
 }
 /* #endregion header */
+
+/* region main */
+
+main{
+    margin-left:20px ;
+}
+
+ #container{
+    background-color: var(--bool-lighter);
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    padding: 10px;
+
+
+}
+
+#button_section{
+    padding: 10px;
+}
+
+#btn_1{
+    background-color: var(--bool-blue);
+    color: var(--bool-lighter);
+    padding: 8px 10px;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    border: none;
+}
+
+#btn_2{
+    background-color: var(--bool-lighter);
+    color: var(--bool-grey);
+    padding: 7px 10px;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    border: solid var(--bool-grey);
+}
+
