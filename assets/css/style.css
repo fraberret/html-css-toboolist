@@ -10,6 +10,7 @@
     --bool-dark:#444851;
     --bool-grey:#cdd2d5;
     --bool-red:#eb5952;
+    --bool-pink:#d863a0;
 }    /* color palette */
 
 *{
@@ -86,20 +87,24 @@ section{
 #main_section{
     margin-top: 1px;
 }
-.check{
+.check::before{
+    content: '\2713';
     font-size: 12px;
     color: var(--bool-green);
     border: 1px solid var(--bool-green);
     border-radius: 100%;
     padding: 2px 5px;
+    margin-right: 5px;
 }
 
-.cross{
+.cross::before{
+   content: '\2715';
     font-size: 12px;
     color: var(--bool-red);
     border: 1px solid var(--bool-red);
     border-radius: 100%;
     padding: 2px 5px;
+    margin-right: 5px;
 }
 .bluetag{
     background-color: var(--bool-blue);
@@ -135,7 +140,18 @@ section{
     font-size: 0.7rem;
     border-radius: 50px;
 }
-.section{
+
+.pinktag{
+
+    background-color: var(--bool-pink);
+    background-size: contain;
+    color: var(--bool-lighter);
+    padding: 7px;
+    font-size: 0.7rem;
+    border-radius: 50px;
+}
+
+.todo{
     padding-top: 10px;
     padding-bottom: 10px;
 }
